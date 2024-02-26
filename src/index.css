@@ -110,3 +110,11 @@ header{
   cursor: pointer;
   font-size: 20px;
 }
+
+.taskTrashButton{
+  color: rgb(155, 46, 46);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
