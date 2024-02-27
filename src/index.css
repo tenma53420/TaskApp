@@ -4,25 +4,44 @@
   padding: 0;
 }
 
+body {
+  background: rgb(61, 93, 189);
+  background: linear-gradient(
+    126deg,
+    rgba(61, 93, 189, 1) 0%,
+    rgba(33, 63, 107, 1) 96%
+  );
+  height: 100vh;
+  color: #e4e4e4;
+  line-height: 1.5;
+  font-family: "M PLUS Rounded 1c";
+}
+
 h1{
   font-size: 45px;
-  color: #fff;
+  color: rgb(61, 93, 189);
   font-weight: 600;
-  text-shadow: 2px 2px 2px black;
+  font-family: "M PLUS Rounded 1c";
 }
 
 header{
   text-align: center;
   padding: 4px 10%;
   margin-bottom: 50px;
-  background-color: rgb(102, 234, 244);
+  background: linear-gradient(126deg, rgb(239, 239, 239) 0%, rgb(209, 209, 209) 96%);
+  font-family: "M PLUS Rounded 1c";
 }
 
 .taskCard{
   width: 250px;
   padding: 10px 25px;
   margin: 10px 1%;
-  background-color: rgb(243, 243, 243);
+  background: rgb(30, 25, 31);
+  background: linear-gradient(
+    126deg,
+    rgba(30, 25, 31, 1) 0%,
+    rgba(51, 45, 54, 1) 96%
+  );
   border-radius: 5px;
 }
 
@@ -56,9 +75,9 @@ header{
   align-items: center;
   padding: 17px 0px;
   margin-top: 10px;
-  background-color: white;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px rgb(75, 75, 75);
+  background: rgb(145, 137, 145);
+  background: linear-gradient(126deg, rgb(79, 73, 79) 0%, rgb(68, 64, 69) 96%);
 }
 
 .taskText {
@@ -87,10 +106,12 @@ header{
   padding: 10px 18px;
   border-radius: 9999px;
   font-size: 30px;
-  background-color: rgb(221, 194, 162);
-  box-shadow: 3px 3px 8px 1px black;
+  background: rgb(145, 137, 145);
+  background: linear-gradient(126deg, rgb(79, 73, 79) 0%, rgb(68, 64, 69) 96%);
+  box-shadow: 3px 3px 8px 1px rgb(30, 30, 30);
   cursor: pointer;
   transition: all 0.3s;
+  color: white;
 }
 
 .addTaskCardButton:hover{
@@ -106,7 +127,7 @@ header{
 .taskCardDeleteButton{
   color: rgb(155, 46, 46);
   border: none;
-  background-color: rgb(243, 243, 243);
+  background-color: transparent;
   cursor: pointer;
   font-size: 20px;
 }
@@ -114,7 +135,7 @@ header{
 .taskTrashButton{
   color: rgb(155, 46, 46);
   border: none;
-  background-color: white;
+  background-color: transparent;
   cursor: pointer;
   font-size: 20px;
 }
